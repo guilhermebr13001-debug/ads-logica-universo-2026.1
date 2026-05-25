@@ -59,6 +59,3 @@ def calcular_notas_moedas(valor):
         if quantidade > 0:
             valor = round(valor - (quantidade * denominacao), 2)
             print(f"  {quantidade}x {nomes[denominacao]}")
-
-if __name__ == "__main__":
-    calcular_troco()
